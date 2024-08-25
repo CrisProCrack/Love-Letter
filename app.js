@@ -67,6 +67,11 @@ let trackList = [
         artist: "Joji",
         path: "./music/Sanctuary.mp3",
     },
+    {
+        name: "Like You Do",
+        artist: "Joji",
+        path: "./music/Like You Do.mp3",
+    },
 ];
 
 // EVENT LISTENERS
