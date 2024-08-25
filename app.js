@@ -10,9 +10,7 @@ let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25));
 
 console.log(value);
 
-document.getElementById("days").textContent = day.toString();
-document.getElementById("months").textContent = month.toString();
-document.getElementById("years").textContent = year.toString();
+
 
 
 let musicPlayer = document.querySelector(".music-container");
@@ -60,24 +58,14 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
-        name: "Only",
-        artist: "Lee Hi",
-        path: "./music/only.mp3",
+        name: "BIRDS OF A FEATHER",
+        artist: "Billie Eilish",
+        path: "./music/BIRDS OF A FEATHER.mp3",
     },
     {
-        name: "Day & Night",
-        artist: "Jung Seung Hwan",
-        path: "./music/day and night.mp3",
-    },
-    {
-        name: "Love of my Life",
-        artist: "Reyne",
-        path: "./music/love of my life.mp3",
-    },
-    {
-        name: "The Only One",
-        artist: "Reyne",
-        path: "./music/the only one.mp3",
+        name: "Sanctuary",
+        artist: "Joji",
+        path: "./music/Sanctuary.mp3",
     },
 ];
 
